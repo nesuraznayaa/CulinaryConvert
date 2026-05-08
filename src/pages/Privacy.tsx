@@ -182,21 +182,6 @@ export default function Privacy() {
           </p>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold text-gray-800 mb-3">10. Contact Information</h2>
-          <p>
-            If you have questions, concerns, or requests regarding this Privacy Policy, please contact us at:
-          </p>
-          <div className="mt-3 bg-gray-50 rounded-xl p-4 border border-gray-200">
-            <p><strong>CulinaryConvert</strong></p>
-            <p className="mt-1">
-              Via our{" "}
-              <a href="/contact" className="text-amber-500 underline font-semibold">Contact Form</a>
-            </p>
-            <p className="text-xs text-gray-400 mt-2">We respond to all privacy-related inquiries within 5 business days.</p>
-          </div>
-        </section>
-
       </div>
     </main>
   );
