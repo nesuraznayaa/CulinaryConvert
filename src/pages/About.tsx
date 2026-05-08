@@ -89,21 +89,6 @@ export default function About() {
           <li className="flex gap-2"><span className="text-amber-500 font-bold">→</span> <span><strong>In-kitchen testing</strong> — for ingredients where authoritative sources disagreed</span></li>
         </ul>
       </section>
-
-      {/* Contact CTA */}
-      <section className="bg-gray-800 rounded-2xl p-8 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Found an Error? Have a Suggestion?</h2>
-        <p className="text-gray-400 text-sm mb-5">
-          We're always improving our database. If you spot an inaccuracy or want to see an ingredient added,
-          we want to hear from you.
-        </p>
-        <a
-          href="/contact"
-          className="inline-block px-6 py-2.5 bg-amber-500 text-white font-bold rounded-xl hover:bg-amber-400 transition-colors text-sm"
-        >
-          Get in Touch →
-        </a>
-      </section>
     </main>
   );
 }
